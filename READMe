@@ -1,0 +1,74 @@
+
+
+# Project Title
+
+TravelFast Fleet Management System API.
+
+This is a RESTful API project for a travel company. This fleet management API will handle funtionality of the site and power the frontend of the application.
+## Documentation
+
+[Documentation](https://linktodocumentation)
+
+http://documenter.getpostman.com
+## Features
+
+>. User registration and login
+
+>. Admin creation, register and login
+
+>. CRUD operations for vehicles
+
+>. CRUD operations for destinations 
+
+>. CRUD operations for the journey management by Admin
+
+>. CRUD operations for financial management by Admin
+
+>. API documenation using postman
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`NODE_ENV`
+
+`PORT`
+
+`SEQUELIZE_URI`
+
+`JWT_SECRET`
+
+`JWT_EXPIRESIN`
+
+`WEBSOCKET`
+
+
+## Installation
+
+Install with npm
+
+    git clone: https://github.com/CeO10/TravelFast-API.git
+
+```bash
+  npm install
+  cd TravelFast
+```
+Install dependencies,copy the .env file and populate the variables
+
+```
+ cp .env.example .env
+
+ npm run start:dev
+ ```
+ To check out a branch
+ ```
+ git checkout ~b develop
+ ```
+ To run tests 
+ ```
+ npm test
+ ```
+## 🔗 Links
+README.md
+
+https://github.com/CeO10/TravelFast-API/blob/e40f0da22e30dc435f6131a2c0663fc1698d6a19/README.md
+
