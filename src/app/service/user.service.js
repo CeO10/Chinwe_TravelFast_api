@@ -1,6 +1,7 @@
 import {Op, where} from 'sequelize';
 import {User} from "../models/user.models.js";
 import {ConflictError, NotFoundError} from "../../lib/error-definitions.js";
+import { request } from 'express';
 
 
 // creating an instance
@@ -41,4 +42,10 @@ export const updateUserByRole = async (role) => {
 
 export const deleteUser = async (role) => {
     await user.destroy ({where: {role}})
+};
+
+
+// Users can view availble journeys to purchase ticket
+export const getAvailableJourney = async (api_url, token) => {
+    await res.json.get(journey, price)
 };
